@@ -2,7 +2,7 @@ angular
   .module('Whatsapp')
   .controller('ChatsCtrl', ChatsCtrl);
 
-function ChatsCtrl ($scope, $ionicModal) {
+function ChatsCtrl ($scope, $ionicModal, $meteor) {
   $scope.chats = $scope.$meteorCollection(Chats, false);
 
   $ionicModal.fromTemplateUrl('client/templates/new-chat.ng.html', {
