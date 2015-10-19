@@ -1,0 +1,11 @@
+{
+  "TWILIO": {
+    "FROM": "meteor-whatsapp",
+    "SID": "AC160d9a88b0bf447f49a63a0693b2317a",
+    "TOKEN": "fb69347a1ae3f979ec5847ae5c88e7dd"
+  },
+  "ACCOUNTS_PHONE": {
+    "ADMIN_NUMBERS": ["123456789", "987654321"],
+    "MASTER_CODE": "1234"
+  }
+}
